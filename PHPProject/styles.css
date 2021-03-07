@@ -1,0 +1,505 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+article, header, footer, figure, section, form
+{
+    display: block;
+}
+
+html
+{
+   background-color: rgb(45, 110, 154);
+   
+   font-family: Arial, Verdana, sans-serif;
+   height: 100%;
+}
+
+body
+{
+    background-color: rgb(250, 238, 218);
+    box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -10px 0px 40px;
+    border-left: 1px solid rgb(153, 83, 6);
+    border-right: 1px solid rgb(153, 83, 6);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 250px;
+    max-width: 950px;
+    width: 100%;
+    
+     
+/*    margin: 0px auto;
+    padding: 1px 0px;
+    width: 98%;
+    max-width: 950px;
+    min-width: 250px;
+    font-family: Verdana, Geneva, sans-serif;*/
+    
+    font-size: 125%;
+    line-height: 1.5em;
+    position: relative;
+}
+
+#header img{
+display: block;
+width: 100%;
+height: 230px;        
+}
+
+header h2
+{
+	background-color: rgb(30, 77, 43);
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 1.4em;
+	text-align: center;
+}
+
+section
+{
+   margin:36px;
+}
+
+nav
+{
+   width: 180px;
+   float:left;
+   margin-right: 10px;
+}
+
+nav ul
+{
+   background-color: rgb(200, 195, 114);
+   line-height: 2em;
+   list-style-type: none;
+   padding-left: 0.5em;
+}
+
+nav ul li:hover
+{
+   background-color: rgb(55, 102, 55);
+}
+
+nav ul li:first-of-type
+{
+   text-transform: uppercase;
+}
+
+nav ul li a
+{
+   color: white;
+   text-decoration: none;
+}
+
+table
+{
+   border-width: 6px;
+   border-style: outset;
+   border-color: rgb(55, 102, 55);
+   border-collapse: collapse;
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 0.85em;
+   line-height: 1.3em;
+   width: 100%
+}
+
+table col.firstcol
+{
+   width: 37%;
+}
+
+table tbody td:first-of-type
+{
+   font-weight: 600;
+}
+
+table tbody td:nth-of-type(2)
+{
+   font-style: italic;
+}
+table th, table td
+{
+   border: 1px solid gray;
+}
+
+table thead
+{
+   background-color: rgb(200, 195, 114);
+}
+
+table caption
+{
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+table tbody td
+{
+   padding: 5px;
+   vertical-align: top;
+}
+
+table tbody tr:nth-of-type(odd)
+{
+   background-color: rgb(213, 213, 184);
+}
+
+table tbody tr:nth-of-type(even)
+{
+   background-color: rgb(215, 230, 220);
+}
+
+table#allProducts
+{
+   width: 70%;
+   margin: 0px auto;
+}
+
+table#allProducts td
+{
+   font-style: normal;
+}
+
+table#product
+{
+   border-style: hidden;
+   width: 70%;
+   margin: 0px auto;
+}
+
+table#product tbody tr
+{
+   background-color: rgb(250,235,215);
+   border-style: hidden;
+   height: 100px;
+}
+
+table#product tbody td
+{
+   border-style: hidden;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+/*figure
+{
+   text-align: center;
+}
+
+figure img
+{
+   height: 300px;
+   width: 250px;
+}*/
+
+/*article#MovieDetail
+{
+   margin: 20px;
+}
+
+article#MovieDetail dt
+{
+   font-weight: bold;
+}
+
+article#MovieDetail dd
+{
+   font-style: italic;
+}
+
+article#MovieDetail p
+{
+   text-align: center;
+}*/
+
+#error
+{
+   background-color: red; 
+   border-width: 1px; 
+   border-color: orange; 
+   border-style: solid;
+   text-align: center;
+   width: 50%;
+   margin:0px auto;
+}
+
+footer
+{
+   clear: both;
+}
+
+footer address
+{
+   background-color: #4b692d;
+   color: #fff;
+   font-style: normal;
+   font-variant: small-caps;
+   font-size: 0.9em;
+   line-height: 2em;
+   font-family: 'Times New Roman', Times, Serif;
+   text-align: center;
+}
+
+form
+{
+   margin:0px auto;
+   width: 80%;
+   
+   height:100%;
+}
+
+form#loginForm
+{
+  width:70%;
+  float:left;
+  height: 100%;
+}
+
+form#addUserForm
+{
+  float:left;
+  height:100%;
+}
+
+label
+{
+  clear: left;
+  display: block;
+  float: left;
+  width: 30%;
+  margin:10px 0px;
+  font-weight: bold;
+}
+
+input
+{
+   display: block;
+   float: left;
+   width: 60%;
+   height: 30px;
+   font-size: 1.2em;
+   margin:10px 0px;
+}
+
+input.ten
+{
+   width: 25%
+}
+
+input.twenty
+{
+   width: 50%
+}
+
+input#size
+{
+   width: 5%;
+}
+
+
+textarea
+{
+   display: block;
+   float: left;
+   width: 60%;
+   height: 130px;
+   font-size: 1.2em;
+   margin:10px 0px;
+}
+
+input.sm
+{
+   width: 30%;
+}
+
+select
+{
+   display: block;
+   float: left;
+   font-size: 1.2em;
+   margin:10px 0px;
+}
+
+form p
+{
+   clear:both;
+   text-align: center;
+}
+
+input[type="submit"]
+{
+   display:inline;
+   float:none;
+   height: 40px;
+   width: 270px;
+}
+
+input#proceed
+{
+   width: 150px;
+}
+input#select
+{
+    margin-left: -100px;
+}
+input#btn-login{
+    margin-left: 100px;
+}
+
+.err
+{
+   float: left;
+   margin-left: 10px;
+   color: red;
+   display: none;
+}
+
+
+.container  {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+}
+h1 { 
+  font-size: 24pt;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0; 
+  margin-bottom: 20px;
+}
+.product-images {
+  float: left;
+  max-width: 350px;
+  width: 65%;
+  position: relative;
+}
+.product-images img {
+  float: left;
+  width: 90%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+  border: 10px solid orangered;
+  border-radius: 25px;
+
+}
+
+.products {
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 150%;
+  float: right;
+  color: #333;
+  width: 40%;
+  margin-top: 60px;
+  
+}
+
+.product-description {
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+.product-description span {
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 31px;
+  color: #43484D;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+  text-align:start;
+}
+
+.product-infor{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+ 
+.cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #64af3d;
+}
+
+.container-link {
+width : 770px;
+height : 35px;
+margin : 20px 0 10px 5px;
+background-color:#669933;
+color:#FFFFCC;
+}
+
+#navCircle li {
+margin : 0;
+padding : 0;
+display : inline;
+list-style-type : none;
+margin-top:5px;
+}
+#navCircle a:link, #navCircle a:visited {
+float : left;
+font-size : 0.9em;
+padding : 0 25px 15px 25px;
+text-decoration : none;
+background : inherit;
+
+margin-top:5px;
+}
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+background-color : inherit;
+color : purple;
+}
+
+.aboutus{
+   margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+.aboutus h1,h2{
+    text-align: center;
+}
+
+.aboutus .column {
+ float: left;
+}
+.aboutus .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.aboutus h4{
+    color: white;
+}
+
+

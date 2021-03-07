@@ -1,0 +1,34 @@
+
+
+#p-float {
+        max-width: 1500px;
+        margin: 0 auto;
+       
+        overflow: auto;
+      }
+      #p-float::after {
+       
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      div.p-float {
+        float: left;
+        width: 33%;
+      }
+      div.p-float-in {
+        box-sizing: border-box;
+        margin: 5px; 
+        padding: 10px;
+        border: 1px solid #f2dcdc;
+        background: #fff7f7;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
